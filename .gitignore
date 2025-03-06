@@ -1,0 +1,15 @@
+_minted-project_proposal/
+.ipynb_checkpoints/
+data/*
+data/
+*.pt_check
+
+research_papers/embeddings.db/
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.toc
+*.xdv
