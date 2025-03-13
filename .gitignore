@@ -5,6 +5,7 @@ data/
 *.pt_check
 
 research_papers/embeddings.db/
+research_papers/*
 
 *.aux
 *.fdb_latexmk
