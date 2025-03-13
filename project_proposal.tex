@@ -27,7 +27,7 @@
 
 \usepackage{pgfplots}
 \usepackage{pdfpages}
-\pgfplotsset{width=10cm,compat=1.9}
+\pgfplotsset{width=10cm,compat=1.18}
 
 \usepackage{multicol}
 
@@ -53,10 +53,15 @@
 \usepackage{hyperref}
 \hypersetup{colorlinks, citecolor=black, filecolor=black, linkcolor=black, urlcolor=black}
 
-%\usepackage[english]{babel}
+\usepackage[english]{babel}
 \usepackage{csquotes}
 \usepackage{comment}
 
+\usepackage[
+    backend=biber,
+    style=ieee,
+    sorting=none]{biblatex}
+\addbibresource{bibliography.bib}
 \usepackage{tabularx}
 
 \renewcommand{\baselinestretch}{1.15} 
@@ -100,6 +105,9 @@
 \section{General Objective}
 [One paragraph describing the overall project objective and research questions].
 
+This project seeks to create a state-of-the-art model for the detection, classification, and 
+segmentation of disease on Makerere Passionfruit.
+
 \section{Key Finding from the Literature}
 [Here you should succinctly state a key takeaway / most relevant learning from your review of
 literature (which will be included as an appendix)].
@@ -107,6 +115,9 @@ literature (which will be included as an appendix)].
 \section{Stakeholders \& Resources}
 [Describe the end users, team members or other people who must be consulted or informed about
 project progress or outcomes. Identify resources that will be used to complete the project]
+
+
+
 
 \section{Project Methodology}
 [Describe what methodology and methods you will use to conduct your capstone research project.

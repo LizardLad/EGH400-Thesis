@@ -14,3 +14,9 @@ research_papers/*
 *.synctex.gz
 *.toc
 *.xdv
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+DCGAN-Copy1.ipynb
